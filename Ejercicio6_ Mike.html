@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data"></form>
+
+    <h2>Registrar Usuario Nuevo</h2>
+
+    <label>Nombre de usuario</label> <br>
+    <input type="text" name="nombre" placeholder="Ingrese Usuario"> <br><br>
+
+    <label>Contraseña</label> <br>
+    <input type="password" name="password" placeholder="Ingrese Contraseña"> <br><br>
+
+    <label>Edad del usuario</label> <br>
+    <input type="number" name="edad" placeholder="Ingrese Edad"><br>
+    Edad es irrelevante si le vamos a pedir la fecha de nacimiento! <br><br>
+
+    <label>Fecha de nacimiento</label> <br>
+    <input type="date" name="naciemiento"> <br><br>
+
+    <label>Sexo del usuario</label> <br>
+    <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+    <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+    <input type="radio" name="sexo" value="Otro"> Otro <br><br>
+
+    <label>País nacimiento del usuario</label> <br>
+    <select name="pais">
+        <option>Argentina</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+        <option>Uruguay</option>
+        <option>Alemaia</option>
+        <option>Portugal</option>
+        <option>Eslovenia</option>
+        <option>Rusia</option>
+        <option>Italia</option>
+        <option>Españia</option>
+        <option>Francia</option>
+        <option>Inglaterra</option>
+        <option>Islandia</option>
+        <option>Finlandia</option>
+        <option>Polonia</option>
+        <option>Republica Checa</option>
+        <option>Eslovania</option>
+        <option>Lituania</option>
+        <option>Turquia</option>
+        <option>Rusia</option>
+        <option>Paises Bajos</option>
+        <option>India</option>
+        <option>Mongolia</option>
+        <option>China</option>
+        <option>Japon</option>
+        <option>Autralia</option>
+        <option>Nueva Zelanda</option>
+    </select><br>
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+
+</body>
+
+</html>
